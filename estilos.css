@@ -1,5 +1,8 @@
+/* Se define la fuente de letra para el texto en el cuerpo de la página, junto con el color */
+
 body{font-family: sans-serif; background-color: #6e9e41; box-sizing: border-box;}
 
+/* Se definen los colores del formulario, colores de fondo, aspectos de los bordes y alineaciones de texto*/
 form{
     background-color: rgb(224, 223, 223);
     border-radius: 10px;
