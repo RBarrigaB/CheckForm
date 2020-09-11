@@ -1,4 +1,7 @@
+// Se crea la funcion validar del formulario
 function validar() {
+    // Se crean variables que almacenarán los valores ingresados por el usuario para validarlos
+    // de acuerdo a criterios pre establecidos
     var nombre;
     var apellidos;
     var correo;
@@ -13,6 +16,7 @@ function validar() {
     clave = document.getElementById("pass").value;
     telefono = document.getElementById("telefono").value;
 
+    // Se verifica que los input no vengan vacíos y que cumplan con requisitos específicos
     if (nombre === "") {
         alert("Por favor, debe ingresar un nombre");
         return false;
